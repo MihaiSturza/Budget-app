@@ -32,8 +32,8 @@ body {
 **********************************************/
 
 .top {
-    height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    height: 38vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(sky.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -44,7 +44,7 @@ body {
     width: 350px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     color: #fff;
 }
 
@@ -72,10 +72,15 @@ body {
 .budget__income {
     margin-bottom: 10px;
     background-color: #28B9B5;
+   
+    
+    
 }
 
 .budget__expenses {
     background-color: #FF5049;
+   
+    
 }
 
 .budget__income--text,
